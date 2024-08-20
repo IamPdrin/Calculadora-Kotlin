@@ -17,7 +17,7 @@
 
 ## Tela Tratamento de Erro
 <div align="center">
-    <img src="PrintsCalculadora/7.jpg" alt="Tela Tratamento de Erro" width="500" height="600"/>
+    <img src="PrintsCalculadora/7.jpg" alt="Tela Tratamento de Erro" width="400" height="600"/>
 </div>
 
 
