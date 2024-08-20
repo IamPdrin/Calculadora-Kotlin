@@ -10,11 +10,14 @@ Desenvolva dois apps:
 
 # Demonstração
 
-## Tela Inicial
-<img src="PrintsCalculadora/1.jpg" alt="Tela Inicial" width="500" height="600"/>
+<div align="center">
+    ## Tela Inicial
+    <img src="PrintsCalculadora/1.jpg" alt="Tela Inicial" width="400" height="600"/>
 
-## Tela Tratamento de Erro
-<img src="PrintsCalculadora/7.jpg" alt="Tela Tratamento de Erro" width="500" height="600"/>
+    ## Tela Tratamento de Erro
+    <img src="PrintsCalculadora/7.jpg" alt="Tela Tratamento de Erro" width="500" height="600"/>
+
+</div>
 
 # Ferramentas Utilizadas
 
