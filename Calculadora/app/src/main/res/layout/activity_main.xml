@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Calculadora"
+        android:textAllCaps="false"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+
+        app:layout_constraintBottom_toTopOf="@id/btnSomar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267" />
+
+
+    <TextView
+        android:id="@+id/textResp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+
+        android:text=""
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubtrair" />
+
+    <Button
+        android:id="@+id/btnSomar"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="4dp"
+        android:text="Somar"
+        android:textSize="12sp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnDividir"
+        app:layout_constraintEnd_toStartOf="@+id/btnMultiplicar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnDividir"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="204dp"
+        android:text="Dividir"
+        android:textSize="12sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnMultiplicar"
+        app:layout_constraintStart_toStartOf="@+id/btnMultiplicar" />
+
+    <Button
+        android:id="@+id/btnMultiplicar"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="4dp"
+        android:text="Multiplicar"
+        android:textSize="12sp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnDividir"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toEndOf="@+id/btnSomar" />
+
+    <Button
+        android:id="@+id/btnSubtrair"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="204dp"
+        android:text="Subtrair"
+        android:textSize="12sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnSomar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnSomar" />
+
+    <EditText
+        android:id="@+id/edtFirstNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="Primeiro Número"
+        android:inputType="numberDecimal"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPrincipal" />
+
+    <EditText
+        android:id="@+id/edtSecondNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:ems="10"
+        android:hint="Segundo Número"
+        android:inputType="numberDecimal"
+
+        app:layout_constraintBottom_toTopOf="@+id/btnSomar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtFirstNumber" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
