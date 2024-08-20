@@ -10,14 +10,13 @@
 
 # Demonstração
 
+## Tela Inicial
 <div align="center">
-    ## Tela Inicial
     <img src="PrintsCalculadora/1.jpg" alt="Tela Inicial" width="400" height="600"/>
-
 </div>
 
+## Tela Tratamento de Erro
 <div align="center">
-    ## Tela Tratamento de Erro
     <img src="PrintsCalculadora/7.jpg" alt="Tela Tratamento de Erro" width="500" height="600"/>
 </div>
 
