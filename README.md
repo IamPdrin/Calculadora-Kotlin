@@ -13,12 +13,12 @@
 
 ## Tela Inicial
 <div align="center">
-    <img src="PrintsCalculadora/1.jpg" alt="Tela Inicial" width="400" height="600"/>
+    <img src="PrintsCalculadora/1.jpg" alt="Tela Inicial" width="200" height="400"/>
 </div>
 
 ## Tela Tratamento de Erro
 <div align="center">
-    <img src="PrintsCalculadora/7.jpg" alt="Tela Tratamento de Erro" width="400" height="600"/>
+    <img src="PrintsCalculadora/7.jpg" alt="Tela Tratamento de Erro" width="200" height="400"/>
 </div>
 
 # Primeira Lei de Ohm
@@ -26,7 +26,7 @@
 
 ## Tela Inicial
 <div align="center">
-    <img src="PrintCalcOhm/telaInicial.jpg" alt="Tela Inicial" width="400" height="600"/>
+    <img src="PrintCalcOhm/telaInicial.jpg" alt="Tela Inicial" width="200" height="400"/>
 </div>
 
 # Ferramentas Utilizadas
