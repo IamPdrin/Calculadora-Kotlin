@@ -1,4 +1,4 @@
-# Calculadora
+# Projetos 
 
  - Desenvolva um app chamado Calculadora (4 Operações Básicas) no Android Studio.
 
@@ -8,6 +8,7 @@
 	    2. Caso receba tensão e corrente calcular resistência;
 	    3. Caso receba resistência e corrente calcular tensão.
 
+# Calculadora
 # Demonstração
 
 ## Tela Inicial
@@ -17,9 +18,16 @@
 
 ## Tela Tratamento de Erro
 <div align="center">
-    <img src="PrintsCalculadora/7.jpg" alt="Tela Tratamento de Erro" width="500" height="600"/>
+    <img src="PrintsCalculadora/7.jpg" alt="Tela Tratamento de Erro" width="400" height="600"/>
 </div>
 
+# Primeira Lei de Ohm
+# Demonstração
+
+## Tela Inicial
+<div align="center">
+    <img src="PrintsCalcOhm/telaInicial.jpg" alt="Tela Inicial" width="400" height="600"/>
+</div>
 
 # Ferramentas Utilizadas
 
