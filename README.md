@@ -26,7 +26,7 @@
 
 ## Tela Inicial
 <div align="center">
-    <img src="PrintsCalcOhm/telaInicial.jpg" alt="Tela Inicial" width="400" height="600"/>
+    <img src="PrintCalcOhm/telaInicial.jpg" alt="Tela Inicial" width="400" height="600"/>
 </div>
 
 # Ferramentas Utilizadas
